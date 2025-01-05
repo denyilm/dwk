@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  dwk-log-output:
+    build: .
+    image: denyilmaz/dwk-log-output:latest
+    volumes:
+      - ./:/usr/src/app
+      - node_modules:/usr/src/app/node_modules
+
+volumes:
+  node_modules:
