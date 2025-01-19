@@ -1,0 +1,14 @@
+{
+    "name": "to-do",
+    "version": "1.0.0",
+    "description": "to-do app",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "uuid": "^8.3.2",
+      "express": "^4.17.1"
+    }
+  }
+  

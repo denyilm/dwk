@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  dwk-crud:
+    build: .
+    image: denyilmaz/dwk-crud:latest
+    environment:
+      - PORT=3333
+    volumes:
+      - ./:/usr/src/app
+      - node_modules:/usr/src/app/node_modules
+
+volumes:
+  node_modules:
